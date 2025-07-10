@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:TaskManager}",
+            "name": "Debug TaskManager",
+            "program": "${workspaceFolder:TaskManager}/.build/debug/TaskManager",
+            "preLaunchTask": "swift: Build Debug TaskManager"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:TaskManager}",
+            "name": "Release TaskManager",
+            "program": "${workspaceFolder:TaskManager}/.build/release/TaskManager",
+            "preLaunchTask": "swift: Build Release TaskManager"
+        }
+    ]
+}
